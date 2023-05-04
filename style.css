@@ -65,7 +65,7 @@ body {
     overflow-x: hidden;
 }
 
-nav {
+header {
     display: flex;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
@@ -73,7 +73,7 @@ nav {
 
 }
 
-nav>.nav-section {
+header>.nav-section {
     padding: 1rem;
     display: flex;
     gap: 1rem;
@@ -380,7 +380,7 @@ main>article>.article-title-section {
 }
 
 .blurred {
-    opacity: 0;
+    opacity: 0.1;
     filter: blur(8px);
     transition: all 1s;
 }
@@ -391,7 +391,7 @@ main>article>.article-title-section {
     transform: translateX(5%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .ContactsDiv>div>form>article>input {
         height: 35px;
         font-size: 30px;
@@ -429,7 +429,7 @@ main>article>.article-title-section {
         font-size: 70%;
     }
 
-    body>nav {
+    body>header {
         height: 20%;
         font-size: 60%;
     }
